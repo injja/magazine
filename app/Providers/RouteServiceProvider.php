@@ -19,7 +19,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public const HOME = '/home';
 
-    public $modules = ['categories'];
+    public $modules = ['categories', 'items'];
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.
